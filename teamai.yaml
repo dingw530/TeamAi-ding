@@ -1,0 +1,11 @@
+team: my-team
+description: TeamAI shared resources
+repo: https://github.com/dingw530/TeamAi-ding.git
+provider: github
+sharing:
+  rules:
+    enforced: []
+  docs:
+    localDir: ./.teamai/docs
+  env:
+    injectShellProfile: true
